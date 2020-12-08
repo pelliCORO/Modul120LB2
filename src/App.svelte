@@ -17,16 +17,14 @@
 
 
 	<nav>
+		<Link to="blogPost">BlogPost</Link>
 		<Link to="/">Home</Link>
 		<Link to="UserSettings">Settings</Link>
-		<Link to="blog">Blog</Link>
 		<Link to="Login">Login</Link>
-		<Link to="register">Register</Link>
 	</nav>
 
 	<div>
-		<Route path="blog/:id" component="{BlogPost}" />
-		<Route path="blog" component="{Blog}" />
+		<Route path="blogPost/:id" component="{BlogPost}" />
 		<Route path="UserSettings" component="{UserSettings}" />
 		<Route path="Login" component="{Login}" />
 		<Route path="register" component="{Register}" />

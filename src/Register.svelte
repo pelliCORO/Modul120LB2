@@ -15,7 +15,7 @@
     let zip = "";
     let city = "";
     let country = "";
-    let posts = "";
+    let subscription = 1;
 
     function register() {
         axios.default.post('https://api-m120.mailino.io/api/users', {
@@ -29,6 +29,7 @@
             zip: zip,
             city: city,
             country: country,
+            subscription: subscription,
         })
     }
 </script>
@@ -53,6 +54,7 @@
         <input type="text" bind:value={city}>
         <p>country</p>
         <input type="text" bind:value={country}>
+
 <p> </p>
         <button on:click={register}>Registrieren</button>
     </form>

@@ -1,7 +1,9 @@
 <script>
     import {Router, Link, Route} from "svelte-routing";
     import Register from "./Register.svelte"
+    import Home from "./Home.svelte"
     export let url = "";
+    export let errorCode = "";
 
     import * as axios from "axios";
 
@@ -12,7 +14,15 @@
         axios.default.post('https://api-m120.mailino.io/api/auth/login', {
             email: email,
             password: password,
-        })
+        }).then((response) => {
+            console.log(response);
+
+        }, (error) => {
+            errorCode=error
+            console.log(error);
+        });
+
+
     }
 </script>
 
@@ -25,8 +35,9 @@
                 <p>Password</p>
                 <input type="text" bind:value={password}>
                 <button on:click={login}>Login</button>
-                <p> </p>
-                <Link to="./Register">I don't have an Account </Link>
+                <p> {errorCode} </p>
+                <Link to="register">I don't have an Account </Link>
+
             </form>
         </div>
     </div>
@@ -36,6 +47,7 @@
 
 
         <div>
+            <Route path="/"><Home/></Route>
             <Route path="register" component="{Register}" />
         </div>
 

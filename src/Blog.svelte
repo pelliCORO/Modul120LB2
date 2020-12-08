@@ -1,1 +1,5 @@
-<h1>my scheiss Blog</h1>
+<script>
+    export let id;
+
+</script>
+<h1>my Blog</h1>
