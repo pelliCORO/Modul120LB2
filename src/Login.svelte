@@ -16,7 +16,7 @@
             password: password,
         }).then((response) => {
             console.log(response);
-
+            window.location='./'
         }, (error) => {
             errorCode=error
             console.log(error);
@@ -29,7 +29,7 @@
 <main>
     <div class="Login">
         <div class="LoginForm">
-            <form on:submit|preventDefault>
+            <form on:submit|preventDefault method="get" action="./Home.svelte">
                 <p>Email</p>
                 <input type="text" bind:value={email}>
                 <p>Password</p>

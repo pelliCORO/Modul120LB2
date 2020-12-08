@@ -17,7 +17,6 @@
 
 
 	<nav>
-		<Link to="blogPost">BlogPost</Link>
 		<Link to="/">Home</Link>
 		<Link to="UserSettings">Settings</Link>
 		<Link to="Login">Login</Link>
