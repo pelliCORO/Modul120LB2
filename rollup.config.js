@@ -4,7 +4,6 @@ import resolve from '@rollup/plugin-node-resolve';
 import livereload from 'rollup-plugin-livereload';
 import { terser } from 'rollup-plugin-terser';
 import css from 'rollup-plugin-css-only';
-
 const production = !process.env.ROLLUP_WATCH;
 
 function serve() {
@@ -29,6 +28,7 @@ function serve() {
 }
 
 export default {
+
 	input: 'src/main.js',
 	output: {
 		sourcemap: true,
@@ -37,6 +37,7 @@ export default {
 		file: 'public/build/bundle.js'
 	},
 	plugins: [
+		css({ output: 'style.css' }),
 		svelte({
 			compilerOptions: {
 				hydratable: true,

@@ -1,4 +1,5 @@
 <script>
+
     import {onMount} from "svelte";
     import * as axios from "axios";
     let posts = [];
@@ -9,13 +10,38 @@
     })
 </script>
 
+<html>
+
+<body>
+
+<header>
+    <button class="navigation-einklappen"> &#128269; </button>
+</header>
+<div class="sidenav">
+
+</div>
 <main>
-    <h1>Home</h1>
-    {#each posts as post}
+    <header>
+        <h1>Blog Overview</h1>
+    </header>
+    <article class="container">
 
-        <ul>
-            <li>{post.title}{post.body}</li>
-        </ul>
+        {#each posts as post}
 
-    {/each}
+    <div class="Posts">
+                <h3 class="PostTitle"> {post.title}</h3>
+                <div class="PostBody">{post.body}</div>
+        <button class="Edit"> &#9997;</button>
+    </div>
+
+
+        {/each}
+    </article>
 </main>
+<footer>
+</footer>
+
+<script src="../public/index.js"></script>
+</body>
+</html>
+

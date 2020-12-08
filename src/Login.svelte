@@ -15,15 +15,26 @@
         })
     }
 </script>
+
 <main>
-<form on:submit|preventDefault>
-    <input type="text" bind:value={email}>
-    <input type="text" bind:value={password}>
-    <button on:click={login()}>Login</button>
-</form>
+    <div class="Login">
+        <div class="LoginForm">
+            <form on:submit|preventDefault>
+                <p>Email</p>
+                <input type="text" bind:value={email}>
+                <p>Password</p>
+                <input type="text" bind:value={password}>
+                <button on:click={login}>Login</button>
+                <p> </p>
+                <Link to="./Register">I don't have an Account </Link>
+            </form>
+        </div>
+    </div>
 
 
-            <Link to="./Register">Register</Link>
+
+
+
         <div>
             <Route path="register" component="{Register}" />
         </div>

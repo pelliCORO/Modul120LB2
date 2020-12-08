@@ -2,10 +2,9 @@
 	import Home from "./Home.svelte";
 	import BlogPost from "./BlogPost.svelte";
 	import Blog from "./Blog.svelte";
-	import About from "./About.svelte";
+	import UserSettings from "./UserSettings.svelte";
 	import Login from "./Login.svelte";
 	import Register from "./Register.svelte"
-
 
 
 	import {Router, Link, Route} from "svelte-routing";
@@ -15,23 +14,26 @@
 
 
 <Router url="{url}">
+
+
 	<nav>
 		<Link to="/">Home</Link>
-		<Link to="about">About</Link>
+		<Link to="UserSettings">Settings</Link>
 		<Link to="blog">Blog</Link>
 		<Link to="Login">Login</Link>
 		<Link to="register">Register</Link>
-
-
 	</nav>
+
 	<div>
 		<Route path="blog/:id" component="{BlogPost}" />
 		<Route path="blog" component="{Blog}" />
-		<Route path="about" component="{About}" />
+		<Route path="UserSettings" component="{UserSettings}" />
 		<Route path="Login" component="{Login}" />
 		<Route path="register" component="{Register}" />
 		<Route path="/"><Home/></Route>
+
 	</div>
+
 </Router>
 
 

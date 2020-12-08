@@ -1,9 +1,10 @@
 <script>
+    import * as axios from "axios";
     import {Router, Link, Route} from "svelte-routing";
     import Register from "./Register.svelte"
     export let url = "";
 
-    import * as axios from "axios";
+
     let uuid ="";
     let firstName = "";
     let lastName = "";
@@ -18,7 +19,6 @@
 
     function register() {
         axios.default.post('https://api-m120.mailino.io/api/users', {
-
             uuid: uuid,
             firstName: firstName,
             lastName: lastName,
@@ -31,8 +31,8 @@
             country: country,
         })
     }
-
 </script>
+
 <main>
     <form on:submit|preventDefault>
         <p>firstName</p>
@@ -54,7 +54,7 @@
         <p>country</p>
         <input type="text" bind:value={country}>
 <p> </p>
-        <button on:click={register()}>Registrieren</button>
+        <button on:click={register}>Registrieren</button>
     </form>
 
  <!--   <Router url="{url}">

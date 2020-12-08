@@ -1,8 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8ec3de5a-5e83-478f-9670-97a692721f93" name="Default Changelist" comment="add Projekt">
+      <change afterPath="$PROJECT_DIR$/public/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lupe.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rollup.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/rollup.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/About.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserSettings.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Login.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/Login.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Register.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/Register.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +46,8 @@
         <option value="About" />
         <option value="Login" />
         <option value="Register" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -33,9 +64,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\WebstormProjects\Modul120\routing\public" />
+      <recent name="C:\Users\Administrator\WebstormProjects\Modul120\routing\src" />
+    </key>
   </component>
   <component name="RunManager" selected="npm.dev">
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -80,7 +118,9 @@
       <workItem from="1607367314359" duration="40000" />
       <workItem from="1607369682181" duration="1585000" />
       <workItem from="1607371943891" duration="2901000" />
-      <workItem from="1607374902621" duration="1027000" />
+      <workItem from="1607374902621" duration="3098000" />
+      <workItem from="1607416404741" duration="3676000" />
+      <workItem from="1607420277600" duration="9140000" />
     </task>
     <task id="LOCAL-00001" summary="first add">
       <created>1607375457747</created>
@@ -96,11 +136,30 @@
       <option name="project" value="LOCAL" />
       <updated>1607375486477</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add Projekt">
+      <created>1607375976868</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607375976868</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first add" />
@@ -108,15 +167,23 @@
     <option name="LAST_COMMIT_MESSAGE" value="add Projekt" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="751" y="385" key="#Chrome_Settings" timestamp="1607422159397">
+      <screen x="0" y="0" width="1920" height="895" />
+    </state>
+    <state x="751" y="385" key="#Chrome_Settings/0.0.1920.895@0.0.1920.895" timestamp="1607422159397" />
     <state x="712" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606810814920">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="712" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1606810814920" />
-    <state x="740" y="236" key="FileChooserDialogImpl" timestamp="1607375216235">
+    <state x="740" y="236" key="FileChooserDialogImpl" timestamp="1607418001338">
       <screen x="0" y="0" width="1920" height="895" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606815517352" />
-    <state x="740" y="236" key="FileChooserDialogImpl/0.0.1920.895@0.0.1920.895" timestamp="1607375216235" />
+    <state x="740" y="236" key="FileChooserDialogImpl/0.0.1920.895@0.0.1920.895" timestamp="1607418001338" />
+    <state x="838" y="345" key="Github.ShareDialog" timestamp="1607375967067">
+      <screen x="0" y="0" width="1920" height="895" />
+    </state>
+    <state x="838" y="345" key="Github.ShareDialog/0.0.1920.895@0.0.1920.895" timestamp="1607375967067" />
     <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1607331126804">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -133,23 +200,23 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607331126804" />
-    <state x="461" y="141" key="SettingsEditor" timestamp="1607375940957">
+    <state x="461" y="141" key="SettingsEditor" timestamp="1607422173063">
       <screen x="0" y="0" width="1920" height="895" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606810776898" />
-    <state x="461" y="141" key="SettingsEditor/0.0.1920.895@0.0.1920.895" timestamp="1607375940957" />
-    <state x="552" y="180" width="816" height="524" key="Vcs.Push.Dialog.v2" timestamp="1607375745088">
+    <state x="461" y="141" key="SettingsEditor/0.0.1920.895@0.0.1920.895" timestamp="1607422173063" />
+    <state x="552" y="180" width="816" height="524" key="Vcs.Push.Dialog.v2" timestamp="1607375977087">
       <screen x="0" y="0" width="1920" height="895" />
     </state>
-    <state x="552" y="180" width="816" height="524" key="Vcs.Push.Dialog.v2/0.0.1920.895@0.0.1920.895" timestamp="1607375745088" />
-    <state x="616" y="207" key="run.anything.popup" timestamp="1607371045376">
+    <state x="552" y="180" width="816" height="524" key="Vcs.Push.Dialog.v2/0.0.1920.895@0.0.1920.895" timestamp="1607375977087" />
+    <state x="616" y="207" key="run.anything.popup" timestamp="1607420667919">
       <screen x="0" y="0" width="1920" height="895" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607334883472" />
-    <state x="616" y="207" key="run.anything.popup/0.0.1920.895@0.0.1920.895" timestamp="1607371045376" />
-    <state x="623" y="188" width="672" height="678" key="search.everywhere.popup" timestamp="1607375751029">
+    <state x="616" y="207" key="run.anything.popup/0.0.1920.895@0.0.1920.895" timestamp="1607420667919" />
+    <state x="623" y="188" width="672" height="678" key="search.everywhere.popup" timestamp="1607375948581">
       <screen x="0" y="0" width="1920" height="895" />
     </state>
-    <state x="623" y="188" width="672" height="678" key="search.everywhere.popup/0.0.1920.895@0.0.1920.895" timestamp="1607375751029" />
+    <state x="623" y="188" width="672" height="678" key="search.everywhere.popup/0.0.1920.895@0.0.1920.895" timestamp="1607375948581" />
   </component>
 </project>
