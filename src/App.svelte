@@ -1,7 +1,7 @@
 <script>
 	import Home from "./Home.svelte";
 	import BlogPost from "./BlogPost.svelte";
-	import Blog from "./Blog.svelte";
+	import UserOveerview from"./UserOverview.svelte"
 	import UserSettings from "./UserSettings.svelte";
 	import Login from "./Login.svelte";
 	import Register from "./Register.svelte"

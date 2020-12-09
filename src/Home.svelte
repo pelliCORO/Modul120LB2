@@ -15,6 +15,10 @@
     }
 
 
+
+
+
+
 </script>
 
 <html>
@@ -35,9 +39,10 @@
 
         {#each posts as post}
 
-    <div class="Posts">
+
+            <div class="Posts">
                 <h3 class="PostTitle"> {post.title}</h3>
-                <h4 class="PostBody">{post.body}</h4>
+
                 <Link to="blogPost/{post.id}">Details </Link>
 
     </div>
