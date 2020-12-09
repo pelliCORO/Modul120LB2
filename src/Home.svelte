@@ -37,9 +37,9 @@
 
     <div class="Posts">
                 <h3 class="PostTitle"> {post.title}</h3>
-                <div class="PostBody">{post.body}</div>
+                <h4 class="PostBody">{post.body}</h4>
                 <Link to="blogPost/{post.id}">Details </Link>
-                <button class="Edit" on:click={() => getDetail("post.id")}> &#9997;</button>
+
     </div>
 
 

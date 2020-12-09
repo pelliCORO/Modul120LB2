@@ -20,9 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ec3de5a-5e83-478f-9670-97a692721f93" name="Default Changelist" comment="other changes">
+      <change afterPath="$PROJECT_DIR$/src/CreatePost.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Login.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/Login.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Register.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/Register.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +41,7 @@
         <option value="Register" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CreatePost" />
       </list>
     </option>
   </component>
@@ -112,7 +115,7 @@
       <workItem from="1607371943891" duration="2901000" />
       <workItem from="1607374902621" duration="3098000" />
       <workItem from="1607416404741" duration="3676000" />
-      <workItem from="1607420277600" duration="24020000" />
+      <workItem from="1607420277600" duration="27129000" />
     </task>
     <task id="LOCAL-00001" summary="first add">
       <created>1607375457747</created>
@@ -149,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607465986089</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="other changes">
+      <created>1607467566144</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1607467566144</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,10 +227,10 @@
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606810776898" />
     <state x="461" y="141" key="SettingsEditor/0.0.1920.895@0.0.1920.895" timestamp="1607422173063" />
-    <state x="552" y="180" width="816" height="524" key="Vcs.Push.Dialog.v2" timestamp="1607465987320">
+    <state x="552" y="180" width="816" height="524" key="Vcs.Push.Dialog.v2" timestamp="1607467568973">
       <screen x="0" y="0" width="1920" height="895" />
     </state>
-    <state x="552" y="180" width="816" height="524" key="Vcs.Push.Dialog.v2/0.0.1920.895@0.0.1920.895" timestamp="1607465987320" />
+    <state x="552" y="180" width="816" height="524" key="Vcs.Push.Dialog.v2/0.0.1920.895@0.0.1920.895" timestamp="1607467568973" />
     <state x="616" y="207" key="run.anything.popup" timestamp="1607420667919">
       <screen x="0" y="0" width="1920" height="895" />
     </state>

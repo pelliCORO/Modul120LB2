@@ -29,7 +29,7 @@
             zip: zip,
             city: city,
             country: country,
-            subscription: subscription,
+            subscription: subscription
         })
     }
 </script>
